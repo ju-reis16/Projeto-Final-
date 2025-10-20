@@ -4,3 +4,10 @@
     padding: 8px 15px;
     border-radius: 10px;
 }
+main {
+    background-image: url('https://vollo.vtexassets.com/arquivos/ids/163288/VT710R-Conjunto-Tenis-de-Mesa-Vollo-Exemplo-Uso-02-1200px--1-.jpg.jpg?v=638842147036600000');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px;
+}
