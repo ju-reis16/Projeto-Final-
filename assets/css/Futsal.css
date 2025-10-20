@@ -4,6 +4,13 @@
     padding: 8px 15px;
     border-radius: 10px;
 } 
+main {
+    background-image: url('https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/10/falcao-futsal.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px;
+}
 .historia h1, .regras h2 {
     color: white;
 }
