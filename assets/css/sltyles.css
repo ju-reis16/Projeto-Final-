@@ -4,47 +4,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-
-header{
-  background-color: #0a012f;
-  padding: 20px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.logo img {
-  height: 70px;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-
-.menu li a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  padding: 6px 12px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
- 
-.menu li a:hover,
-.menu li a.active {
-  background-color: #3333b7;
-}
- .search input {
-  padding: 6px 10px;
-  border: none;
-  border-radius: 15px;
-  font-size: 14px;
-  outline: none;
-}
  .Hand{
     color: rgb(246, 246, 246);
     text-align:justify;
