@@ -45,6 +45,11 @@ body{
   .Regras h2{
     padding-top: 50px;
   }
+  .Regras ul{
+    list-style: disc;
+    margin-left: 20px;
+
+}
 
   .img_fundo{
     height: 100vh;
@@ -53,11 +58,6 @@ body{
     justify-content: center;
 }
 
-.Regras ul{
-    list-style: disc;
-    margin-left: 20px;
-
-}
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
