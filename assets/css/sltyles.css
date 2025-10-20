@@ -6,54 +6,63 @@ body{
 }
 
 header{
-    background-color: rgb(73, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 40px;
+  background-color: #0a012f;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-header img {
-    height: 60px;
-    justify-content: flex-end;
-    margin-right: 50%;
-    
+.logo img {
+  height: 70px;
 }
 
- header p{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    
- }
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
- header p a{
-    text-decoration: none;
-    color: rgb(212, 190, 190);
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius:20px;
-    background-color: rgba(255, 255, 255, 0.323);
+
+.menu li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 6px 12px;
   border-radius: 5px;
+  transition: background-color 0.3s;
+}
 
- }
- a:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    transition: 0.5s;
- }
-
+ 
+.menu li a:hover,
+.menu li a.active {
+  background-color: #3333b7;
+}
+ .search input {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  outline: none;
+}
  .Hand{
     color: rgb(246, 246, 246);
     text-align:justify;
-
  }
-   .escrita{
+ .img_hand{
+    height: 300px;
+    display: flex;;
+    justify-content:flex-start;
+ }
+
+ .img_hand img{
+    border-radius: 20px;
+ }
+
+.escrita{
     color: rgb(246, 246, 246);
         text-align:justify;
-
   }
- 
 
   .img_fundo{
     height: 100vh;
@@ -61,3 +70,5 @@ header img {
     align-items: center;
     justify-content: center;
 }
+
+ 
