@@ -37,6 +37,15 @@ body{
     width: 60%;
   }
 
+  .Regras{
+    content: rgb(255, 255, 255);
+ text-align: justify;
+  }
+
+  .Regras h2{
+    padding-top: 50px;
+  }
+
   .img_fundo{
     height: 100vh;
     display: flex;
@@ -44,6 +53,11 @@ body{
     justify-content: center;
 }
 
+.Regras ul{
+    list-style: disc;
+    margin-left: 20px;
+
+}
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -72,3 +86,4 @@ body{
     font-size: 0.9%;
     padding: 10px;
   }
+}
