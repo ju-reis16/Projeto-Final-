@@ -44,10 +44,28 @@ main {
   border: 2px solid white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
+
   .conteudo {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .imagem {
@@ -59,7 +77,35 @@ main {
     font-size: 22px;
   }
 
-  .menu ul {
-    gap: 10px;
+  .texto p {
+    font-size: 15px;
+  }
+
+  .imagem img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 10px 15px;
+  }
+
+  .logo img {
+    height: 55px;
+  }
+
+  .menu {
+    gap: 8px;
+  }
+
+  .menu li a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .search input {
+    width: 100%;
+    font-size: 13px;
   }
 }
