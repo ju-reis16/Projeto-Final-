@@ -11,3 +11,16 @@ main {
     color: white;
     padding: 30px;
 }
+.historia {
+    display: flex;
+    justify-content: space-around;
+}
+.historia h1, .regras h2 {
+    color: white;
+}
+
+.historia p {
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 1.6;
+}
