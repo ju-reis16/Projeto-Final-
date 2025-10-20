@@ -45,3 +45,8 @@
     margin-bottom: 6px;
     font-size: 15px;
 }
+.conteudo {
+    background-color: rgba(105, 98, 98, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
