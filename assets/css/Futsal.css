@@ -3,4 +3,13 @@
     color: #115f08;
     padding: 8px 15px;
     border-radius: 10px;
+} 
+.historia h1, .regras h2 {
+    color: white;
+}
+
+.historia p {
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 1.6;
 }
